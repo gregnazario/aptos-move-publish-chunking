@@ -1,0 +1,13 @@
+[package]
+name = "PackageManagement"
+version = "1.0.0"
+upgrade_policy = "compatible"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-framework", rev = "mainnet" }
+
+[addresses]
+package_management = "_"
+
+[dev-addresses]
+package_management = "0x1231254"
